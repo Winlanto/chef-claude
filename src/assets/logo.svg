@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Колпак -->
+  <path d="M 28 42 C 16 38 18 18 33 16 C 35 4 65 4 67 16 C 82 18 84 38 72 42 Z" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" />
+  <path d="M 31 39 L 69 39 C 69 46 69 50 69 50 L 31 50 Z" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Уши-манипуляторы -->
+  <rect x="15" y="60" width="8" height="14" rx="4" fill="#000000" />
+  <rect x="77" y="60" width="8" height="14" rx="4" fill="#000000" />
+
+  <!-- Голова -->
+  <rect x="22" y="47" width="56" height="42" rx="18" fill="#ffffff" stroke="#000000" stroke-width="6" stroke-linejoin="round" />
+
+  <!-- Глаза и рот -->
+  <circle cx="39" cy="65" r="5" fill="#000000" />
+  <circle cx="61" cy="65" r="5" fill="#000000" />
+  <path d="M 43 74 Q 50 80 57 74" stroke="#000000" stroke-width="5" stroke-linecap="round" fill="none" />
+</svg>
