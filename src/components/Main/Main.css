@@ -1,0 +1,138 @@
+.main {
+padding: 40px 0;
+}
+
+.ingredient-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ingredient-form input {
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  padding: 10px 14px;
+  font-size: 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 0;
+  outline: none;
+}
+
+.ingredient-form input:focus {
+  border-color: #111111;
+
+}
+
+.ingredient-form button {
+  border-radius: 6px;
+  border: none;
+  background-color: #111111;
+  color: #ffffff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+
+.ingredient-form button:hover {
+  background-color: #444444;
+}
+
+.ingredient-form button:before {
+  content: '+';
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+
+.ingredient-list li {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.ingredient-list-container {
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.empty-input {
+  color: #ff0000;
+  font-size: 15px;
+  border: 1px solid #ff0000;
+  transition: all 0.15s ease-in-out;
+}
+
+.get-recipe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ececec;
+  padding: 20px;
+  border-radius: 6px;
+  gap: 16px;
+}
+
+.get-recipe-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 6px;
+}
+
+.get-recipe-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+}
+
+.get-recipe-text {
+  font-size: 13px;
+  color: #555555;
+  font-weight: 300;
+}
+
+.get-recipe-button {
+  border-radius: 6px;
+  border: none;
+  background-color: #d35c0c;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  padding: 0 16px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease;
+}
+
+.get-recipe-button:hover {
+  background-color: #e4854a;
+}
+
+@media (max-width: 480px) {
+  .get-recipe-container {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .get-recipe-text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .get-recipe-button {
+    width: 100%;
+  }
+}
