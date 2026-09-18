@@ -2,6 +2,13 @@
 padding: 40px 0;
 }
 
+section {
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h2 {
   font-size: 18px;
   font-weight: 500;
@@ -146,8 +153,6 @@ p, li, ul, ol, span {
     flex-direction: column;
     align-items: stretch;
   }
-
-  .get
 
   .get-recipe-button {
     width: 100%;
