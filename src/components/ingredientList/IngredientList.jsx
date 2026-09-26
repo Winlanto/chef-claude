@@ -1,4 +1,8 @@
-export default function IngredientList({ ingredients, getRecipe }) {
+export default function IngredientList({
+  ingredients,
+  getRecipe,
+  ingredientsRef,
+}) {
   const ingredientListItems = ingredients.map((ingredient) => (
     <li key={ingredient} className="ingredient">
       {ingredient}
@@ -13,7 +17,7 @@ export default function IngredientList({ ingredients, getRecipe }) {
       </ul>
       {ingredients.length > 2 && (
         <section className="get-recipe-container">
-          <div className="get-recipe-text-container">
+          <div className="get-recipe-text-container" ref={ingredientsRef}>
             <h3 className="get-recipe-title">Ready for a recipe?</h3>
             <span className="get-recipe-text">
               Generate a recipe based on your ingredients.
